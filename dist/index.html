@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ng-app="noServer">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="./dist/styles.css">
+    <link rel="stylesheet" href="./images">
+
+
+
+
+    <title>No Server Project</title>
+  </head>
+
+
+  <body>
+
+
+  <nav class="nav">
+
+    <div class="home" ui-sref="home">Home</div>
+    <div class="shop" ui-sref="shop">Shop</div>
+    <div class="logo"></div>
+    <div class="about" ui-sref="about">About</div>
+    <div class="contact" ui-sref="contact">Contact</div>
+
+      <div class="b-nav">
+        <li><a class="b-link" ui-sref="home">Home</a></li>
+        <li><a class="b-link" ui-sref="shop">Shop</a></li>
+        <li><a class="b-link" ui-sref="about">About</a></li>
+        <li><a class="b-link" ui-sref="contact">Contact</a></li>
+      </div>
+
+      <!-- Burger-Icon -->
+    <div class="b-container">
+        <div class="b-menu">
+          <div class="b-bun b-bun--top"></div>
+          <div class="b-bun b-bun--mid"></div>
+          <div class="b-bun b-bun--bottom"></div>
+        </div>
+        <!-- Burger-Brand -->
+        <!-- <a ui-sref="home" class="b-brand">Fortica</a> -->
+      </div >
+ <!-- Navigation -->
+
+
+  </nav>
+
+
+<ui-view class="theView"></ui-view>
+
+  <footer class="bottom">
+
+  </footer>
+
+
+
+
+
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="./dist/js/bundle.js"></script>
+
+
+  </body>
+</html>

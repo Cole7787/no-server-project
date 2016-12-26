@@ -1,0 +1,21 @@
+.about-content {
+  width: 50%;
+  height: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.about-text {
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 1.5rem;
+}
