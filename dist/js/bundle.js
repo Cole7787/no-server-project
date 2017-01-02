@@ -26,7 +26,12 @@ angular.module('noServer', ['ui.router']).config(function ($stateProvider, $urlR
 angular.module('noServer').controller('aboutCtrl', function ($scope) {});
 'use strict';
 
-angular.module('noServer').controller('contactCtrl', function ($scope) {});
+angular.module('noServer').controller('contactCtrl', function ($scope) {
+
+  $scope.sweet = function () {
+    swal("Subscribed!", "We'll give you a shout when something changes.", "success");
+  };
+});
 'use strict';
 
 angular.module('noServer').controller('homeCtrl', function ($scope) {});
