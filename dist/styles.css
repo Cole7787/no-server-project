@@ -58,6 +58,21 @@
   height: 30px;
   background-color: silver; }
 
+.wild,
+.wild-price {
+  font-size: 1.3rem; }
+
+.wild {
+  margin-left: 15px; }
+
+.wild-price {
+  margin-left: 45px; }
+
+.diablo,
+.diablo-price {
+  font-size: 1.3rem;
+  margin-left: 45px; }
+
 .right-img {
   width: 200px;
   height: 200px; }
